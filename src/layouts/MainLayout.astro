@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION} from '../constants';
 
-const { title = 'Articles, Stories & Tutorials For Tech People' } = Astro.props;
+const { title = 'Thoughts, Stories and Reviews' } = Astro.props;
 
 interface Props {
   title?: string;
@@ -24,7 +24,7 @@ interface Props {
     ></script>
     <title>{SITE_TITLE} - {title}</title>
   </head>
-  <body class="">
+  <body >
    <Navbar />
 
     <section class="container mx-auto max-w-screen-xl mt-10 px-8">
